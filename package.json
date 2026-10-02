@@ -1,0 +1,38 @@
+{
+  "name": "drishti",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DRISHTI (Drug Sample Imaging, Standardization & Testing Information System) — offline-first field drug-test verification PWA: reference-card colour calibration, automated colorimetric classification, and tamper-evident signed test records.",
+  "scripts": {
+    "dev": "vite",
+    "dev:https": "cross-env HTTPS=1 vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "preview:https": "cross-env HTTPS=1 vite preview",
+    "verify:offline": "node node_modules/vite-node/vite-node.mjs scripts/verifyOffline.ts",
+    "logo": "node node_modules/vite-node/vite-node.mjs scripts/renderLogo.ts",
+    "typecheck": "tsc --noEmit",
+    "card": "node node_modules/vite-node/vite-node.mjs scripts/generateCard.ts",
+    "test": "vitest --run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "dexie": "4.0.9",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.9.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-basic-ssl": "1.1.0",
+    "@vitejs/plugin-react": "4.3.3",
+    "cross-env": "7.0.3",
+    "sharp": "^0.33.5",
+    "typescript": "5.6.3",
+    "vite": "5.4.10",
+    "vite-plugin-pwa": "0.20.5",
+    "vitest": "2.1.4"
+  }
+}

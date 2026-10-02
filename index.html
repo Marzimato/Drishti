@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./logo.svg" />
+    <link rel="apple-touch-icon" href="./logo-192.png" />
+    <!--
+      No maximum-scale or user-scalable=no: WCAG 1.4.4 requires text to be
+      resizable to 200%, and blocking pinch-zoom on a field device used outdoors
+      is exactly the wrong trade.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#1c4e9c" media="(prefers-color-scheme: light)" />
+    <!-- Matches the achromatic dark palette, so the browser chrome does not
+         reintroduce a colour cast above a black interface. -->
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="DRISHTI — Drug Sample Imaging, Standardization and Testing Information System. Colour-calibrated capture and tamper-evident recording of presumptive colorimetric field test results."
+    />
+    <title>DRISHTI — Drug Sample Imaging, Standardization &amp; Testing Information System</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 16px; font-family: sans-serif">
+        DRISHTI needs JavaScript to access the camera and to sign test records.
+        Please enable it and reload.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

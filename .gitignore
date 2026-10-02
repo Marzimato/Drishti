@@ -1,0 +1,21 @@
+node_modules/
+dist/
+dist-ssr/
+dev-dist/
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
+npm-debug.log*
+coverage/
+
+# Generated print artefacts (regenerate with: npm run card)
+out/
+
+# Scratch output from the shell wrapper used during development
+*.tmp
+tsc*.log
+test*.log
+card*.log

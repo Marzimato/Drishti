@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="DRISHTI">
+  <title>DRISHTI</title>
+  <path d="M 50 106 L 24 106 L 24 132" fill="none" stroke="#c4ccd6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 462 106 L 488 106 L 488 132" fill="none" stroke="#c4ccd6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 462 406 L 488 406 L 488 380" fill="none" stroke="#c4ccd6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 50 406 L 24 406 L 24 380" fill="none" stroke="#c4ccd6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 66 256 C 170.5 82.15 341.5 82.15 446 256 C 341.5 429.85 170.5 429.85 66 256 Z" fill="#e9ebee" stroke="#0e0e0e" stroke-width="12" stroke-linejoin="round" />
+  <clipPath id="eyeclip"><path d="M 66 256 C 170.5 82.15 341.5 82.15 446 256 C 341.5 429.85 170.5 429.85 66 256 Z" /></clipPath>
+  <g clip-path="url(#eyeclip)">
+    <path d="M 348 256 A 92 92 0 0 1 302 335.674 L 247.447 267.98 Z" fill="#1c4e9c" />
+    <path d="M 302 335.674 A 92 92 0 0 1 210 335.674 L 241.348 254.583 Z" fill="#12356b" />
+    <path d="M 210 335.674 A 92 92 0 0 1 164 256 L 249.901 242.603 Z" fill="#1c4e9c" />
+    <path d="M 164 256 A 92 92 0 0 1 210 176.326 L 264.553 244.02 Z" fill="#12356b" />
+    <path d="M 210 176.326 A 92 92 0 0 1 302 176.326 L 270.652 257.417 Z" fill="#1c4e9c" />
+    <path d="M 302 176.326 A 92 92 0 0 1 348 256 L 262.099 269.397 Z" fill="#12356b" />
+    <circle cx="256" cy="256" r="92" fill="none" stroke="#0e0e0e" stroke-width="10" />
+    <circle cx="256" cy="256" r="25.76" fill="#12356b" />
+  </g>
+</svg>
